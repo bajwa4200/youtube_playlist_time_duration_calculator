@@ -5,10 +5,10 @@ import googleapiclient.discovery
 from datetime import timedelta
 
 # Replace with your API key
-api_key = "AIzaSyB6o0z2NVOUdr0Y1-8oMt-uQME0iYVWgSM"
+api_key = "YOUR_API_KEY"
 
 # Replace with your playlist ID
-playlist_id = "PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG"
+playlist_id = "YOUR_PLAYLIST_ID"
 
 # Set up the YouTube API client
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
